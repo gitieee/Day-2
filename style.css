@@ -1,0 +1,107 @@
+header {
+  background-color: whitesmoke;
+  min-height: 15vh;
+  min-width: 15vh;
+  display: flex;
+  flex-direction: row;
+  /* Le fichier reset :  https://meyerweb.com/eric/tools/css/reset/reset.css*/
+}
+
+main {
+  background-image: url(images/background_img.jpg);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  min-height: 70vh;
+  display: flex;
+  flex-direction: row;
+
+  /* we can use percentage of height, of width etc, 70 vh means 70 % of the width  of the screen*/
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 20px 15px; /* pour mettre des marges entre chaque bloc horizontal */
+  border-radius: 6px;
+  padding: 40px 10px;
+}
+
+#section1 {
+}
+
+#section2 {
+}
+
+#section3 {
+}
+
+#liste {
+  font-family: lato;
+  margin: 2vh;
+}
+
+#pic {
+  width: 20vh;
+  height: 20vh;
+  margin: 10px;
+}
+
+#footerlinks {
+  margin: 2vh;
+  font-family: roboto;
+}
+
+#myquote {
+  margin: 2vh 5vw; /*    2% of the height and 5% of the width ) */
+}
+
+.margehaut {
+  margin-top: 3vh;
+}
+img {
+  width: 10vh;
+  border-radius: 100%;
+}
+
+a {
+  margin: 20px;
+  text-decoration: none; /* pour effacer le surlignage des liens */
+}
+
+h1 {
+  font-size: 32px;
+  color: #b6b7b7;
+  font-family: Lato;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 28px;
+  text-decoration: underline;
+  font-family: Roboto;
+  margin-bottom: 16px;
+}
+
+h3 {
+  font-size: 16px;
+  font-family: Roboto;
+  margin-bottom: 16px;
+}
+p {
+  font-size: 14px;
+  color: rgba(49, 73, 96, 0.8);
+  font-family: Roboto;
+}
+
+#bered {
+  color: red;
+}
+
+footer {
+  background-color: whitesmoke;
+  min-height: 15vh;
+  display: flex;
+  justify-content: center; /* pour mettre au millieu le texte du footer, on ajoute un display flex et un justify content center. On utiilse toujours ces deux balises ensemble pour centrer le texte */
+}
+
+/* donner des styles differents sur les H1, H2 etc  */
